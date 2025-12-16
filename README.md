@@ -57,6 +57,7 @@ Developed by:Sanjai K RegisterNumber:25018325
 <img width="1233" height="278" alt="Screenshot 2025-12-16 161248" src="https://github.com/user-attachments/assets/a912185b-e065-42ad-9038-a67e9d2cdc16" />
 
 **TRUTH TABLE**
+
 ![Truthtable](https://github.com/user-attachments/assets/ead9a162-74fc-4da5-84a5-aa37ff9311e8)
 
 **RESULTS**
