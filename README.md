@@ -1,4 +1,5 @@
 ### SYNCHRONOUS-UP-COUNTER
+**Date:16/12/2025**
 
 **AIM:**
 
@@ -33,14 +34,252 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 **PROGRAM**
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:
+```
+module ex11(out,clk,rst);
+input clk,rst;
+output reg [3:0]out;
+always @ (posedge clk)
+begin
+   if(rst)
+     out<=0;
+   else 
+     out <= out+1;
+end
+endmodule
+```
+Developed by:Sanjai K RegisterNumber:25018325
 */
 
 **RTL LOGIC UP COUNTER**
+<img width="974" height="407" alt="Screenshot 2025-12-16 161228" src="https://github.com/user-attachments/assets/978210e5-e896-4a3e-9cfb-7b4d509e3ba0" />
 
 **TIMING DIAGRAM FOR IP COUNTER**
+<img width="1233" height="278" alt="Screenshot 2025-12-16 161248" src="https://github.com/user-attachments/assets/a912185b-e065-42ad-9038-a67e9d2cdc16" />
 
 **TRUTH TABLE**
+![Truthtable](https://github.com/user-attachments/assets/ead9a162-74fc-4da5-84a5-aa37ff9311e8)
 
 **RESULTS**
+Thus the Synchronous Up  Counter using verilog and validating their functionality using their functional tables is verified
+
+.
+.
+.
+
+.
+
+.
+
+.
+
+
+.
+
+.
+
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+
+.
+.
+
+..
+
+
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+..
+
+.
+
+.
+.
+.
+
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+..
+
+.
+.
+.
+
+.
+
+
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+
+.
+.
+.
+
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+
+.
+.
+.
+.
+
+
+.
+.
+
+.
+.
+
+.
+.
+.
+
+
+.
+
+.
+.
+.
+
+
+.
+.
+
+.
+
+.
+.
+
+
+.
+
+.
+.
+
+..
+
+.
+
+
+.
+
+
+.
+.
+
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+..
+
